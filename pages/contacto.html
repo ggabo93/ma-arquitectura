@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Comunicate con nosotros a cualquier hora en cualquier parte del país">
+        <meta name="keywords" content="CONTACTO, REDES, TELEFONOS"> 
+        <title>MA Arquitectura - Contacto</title>
+        <!-- Link a Bootstrap local -->
+        <link rel="stylesheet" href="../bootstrap/css/bootstrap.css">
+        <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="../css/normalize.css">
+        <link rel="preload" href="../css/styles.css">
+        <link rel="stylesheet" href="../css/styles.css">
+    
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,700;1,300&display=swap"
+            rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,700&display=swap"
+            rel="stylesheet">
+        <link rel="icon" type="image/x-icon" href="img/logoArqui.png">
+    </head>
+
+    <body>
+        <header class="container-fluid">
+            <a class="imgLogo" href="../index.html"><img src="../img/logoArqui.png" alt="Logo"></a>
+            <nav class="navegador">
+                <ul class="contenedorLinkNav">
+                    <li><a class="linkNav" href="../index.html">Inicio</a></li>
+                    <li><a class="linkNav" href="proyectos.html">Proyectos</a>
+                        <ul>
+                            <li><a href="proyectos.html#exteriores">Exteriores</a></li>
+                            <li><a href="proyectos.html#interiores">Interiores</a></li>
+                            <li><a href="proyectos.html#parquizaciones">Parquizaciones</a></li>
+                        </ul>
+                    </li>
+                    <li><a class="linkNav" href="servicios.html">Servicios</a></li>
+                    <li><a class="linkNav" href="nosotros.html">Nosotros</a></li>
+                    <li><a class="linkNav linkActivo" href="contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </header>  
+       
+        <main>
+            <!-- Inicio de formulario -->
+            <h1>Formulario de consulta</h1>
+            
+            <form action="">
+                <div>
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" name="nombre" >
+                </div>   
+
+                <div>
+                    <label for="apellido">Apellido:</label>
+                    <input type="text" name="apellido" >
+                </div>
+
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" placeholder="nombre@ejemplo.com">
+                </div>
+                    <!-- Menu desplegable -->
+                <div>
+                    <label for="categoria">Seleccione categoria de interes:</label>
+                </div>
+
+                <div>
+                    <select name="categoria">
+                        <option value="exteriores">Exteriores</option>
+                        <option value="interiores">Interiores</option>
+                        <option value="parquizaciones">Parquizaciones</option>
+                    </select>
+                </div>
+                <!-- Checkbox novedades -->
+                <div>
+                    <label for="recibir">Recibir novedades</label>
+                    <input type="checkbox" name="recibir" value="1">         
+                </div>
+                
+                <div>
+                <!-- Textarea de consulta -->
+                    <textarea name="comentarios" cols="30" rows="10" placeholder="Ingrese su mensaje aquí"></textarea>
+                </div>
+
+                <div>
+                    <!-- Botones enviar/resetear formulario -->
+                    <input type="submit" name="enviar" value="Enviar">
+                    <input type="reset" name="borrar" value="Borrar">
+                </div>   
+            </form>
+        </main>
+
+        <section>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3404.592119403398!2d-64.18060918485173!3d-31.425362081401154!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9432a29139765f93%3A0xa93597e1a202f4da!2sAv.%20Poeta%20Lugones%20176%2C%20X5000HZO%20C%C3%B3rdoba!5e0!3m2!1ses-419!2sar!4v1611072513060!5m2!1ses-419!2sar" width="600" height="400" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </section>
+        <footer>
+            <div>
+                <a class="linkFooter" target="blank" href="https://facebook.com"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-facebook" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3" />
+                </svg></a>   
+            </div>
+
+            <div>
+                <a class="linkFooter" target="blank" href="https://instagram.com"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-instagram" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <rect x="4" y="4" width="16" height="16" rx="4" />
+                    <circle cx="12" cy="12" r="3" />
+                    <line x1="16.5" y1="7.5" x2="16.5" y2="7.501" />
+                </svg></a>
+
+            </div>
+            
+            <p>Todos los derechos reservados. &copy;</p>
+        </footer>
+
+    </body>
+</html>
